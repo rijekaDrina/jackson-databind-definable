@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>rs.rijekadrina</groupId>
-    <artifactId>jackson-databind-defineable</artifactId>
+    <artifactId>jackson-databind-definable</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -34,11 +34,11 @@
     </dependencies>
 
     <!-- SCM information required by JitPack -->
-<!--    <scm>-->
-<!--        <connection>scm:git:git://github.com/yourusername/jackson-databind-defineable.git</connection>-->
-<!--        <developerConnection>scm:git:ssh://github.com/yourusername/jackson-databind-defineable.git</developerConnection>-->
-<!--        <url>https://github.com/yourusername/jackson-databind-defineable</url>-->
-<!--    </scm>-->
+    <scm>
+        <connection>scm:git:git://github.com/rijekaDrina/jackson-databind-definable</connection>
+        <developerConnection>scm:git:ssh://github.com/rijekaDrina/jackson-databind-definable</developerConnection>
+        <url>https://github.com/rijekaDrina/jackson-databind-defineable</url>
+    </scm>
 
     <!-- Developer information -->
     <developers>
