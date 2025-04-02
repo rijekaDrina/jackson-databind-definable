@@ -30,13 +30,6 @@ public class JsonDefinableDeserializer extends ReferenceTypeDeserializer<JsonDef
 
 	@Override
 	public JsonDefinable<Object> deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
-		JsonToken t = p.getCurrentToken();
-		if (t == JsonToken.VALUE_STRING && !isStringDeserializer) {
-			String str = p.getText().trim();
-			if (str.isEmpty()) {
-				return JsonDefinable.undefined();
-			}
-		}
 		return super.deserialize(p, ctxt);
 	}
 
